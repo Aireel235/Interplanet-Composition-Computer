@@ -6,7 +6,6 @@ planet_name = input("What is the name of the planet you are traveling to?:").str
 astronaut_count = int(input("How many astronaut?"))
 journey_duration = int(input("How many hours of travel ?:"))
 
-#lists for unknown planets
 planet = ["mercury", "venus", "mars", "jupiter", "saturn", "uranus", "neptune"]
 if planet_name not in planet:
     print("Sorry, we do not have information on that planet.")
